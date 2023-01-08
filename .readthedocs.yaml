@@ -11,5 +11,8 @@ version: 2
 #   tools:
 #     python: "3.10"
 
+formats: all
+
 mkdocs:
   configuration: mkdocs.yml
+  fail_on_warning: false
