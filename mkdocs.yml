@@ -6,4 +6,3 @@ nav:
     - About: about.md
 theme:
   name: material
-  custom_dir: overrides
