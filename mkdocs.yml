@@ -5,4 +5,4 @@ nav:
     - User Guide: userguide.md
     - About: about.md
 theme:
-  name: material
+  name: mkdocs
