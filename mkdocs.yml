@@ -1,14 +1,20 @@
 site_name: My Docs
 site_url: https://atestsite.readthedocs.io/
-nav:
-    - Home: index.md
-    - User Guide: userguide.md
-    - About: about.md
+repo_url: https://github.com/capturesbyada/testsite
+
 theme:
   name: material
+
+extra_css:
+- css/extra.css
 
 extra_javascript:
 - js/searchhack.js
 # Read the Docs requires JQuery for its JavaScript code to inject the flyout
 # menu. Material for MkDocs does not come with JQuery.
 - 'https://code.jquery.com/jquery-3.6.1.min.js'
+
+nav:
+    - Home: index.md
+    - User Guide: userguide.md
+    - About: about.md
