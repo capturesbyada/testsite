@@ -6,10 +6,10 @@
 version: 2
 
 # Set the version of Python and other tools you might need
-build:
-  os: ubuntu-22.04
-  tools:
-    python: "3.10"
+#build:
+#  os: ubuntu-22.04
+#  tools:
+#    python: "3.10"
 
 formats: all
 
@@ -19,5 +19,6 @@ mkdocs:
   
 # Optionally declare the Python requirements required to build your docs
 python:
-   install:
+  version: 3.10
+  install:
    - requirements: docs/requirements.txt
